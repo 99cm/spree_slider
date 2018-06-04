@@ -1,12 +1,15 @@
 # encoding: UTF-8
+
+require 'spree_slider/version'
+
 Gem::Specification.new do |s|
   s.name        = 'spree_slider'
-  s.version     = '3.7.0'
+  s.version     = SpreeSlider::VERSION
+  s.authors     = ['Giuseppe Privitera', 'Leo Wang']
+  s.email       = 'cgcmall.cn@gmail.com'
+  s.homepage    = 'https://github.com/99cm/spree_slider'
   s.summary     = 'Spree Slider extension'
   s.description = 'Adds a slider to the homepage'
-  s.authors            = ['Giuseppe Privitera', 'Leo Wang']
-  s.email             = 'cgcmall.cn@gmail.com'
-  s.homepage          = 'https://github.com/99cm/spree_slider'
 
   s.files         = `git ls-files`.split("\n")
   s.require_path = 'lib'

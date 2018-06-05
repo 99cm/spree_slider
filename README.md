@@ -6,36 +6,13 @@ Add a slider to the homepage of your Spree site, and manage the slideshow from w
 
 1. Add this extension to your Gemfile with this line:
 
-  #### Spree >= 3.1
-
   ```ruby
-  gem 'spree_slider', github: 'spree-contrib/spree_slider'
+  gem 'spree_slider', github: '99cm/spree_slider'
   ```
-
-  #### Spree 3.0 and Spree 2.x
-
-  ```ruby
-  gem 'spree_slider', github: 'spree-contrib/spree_slider', branch: 'X-X-stable'
-  ```
-
-  The `branch` option is important: it must match the version of Spree you're using.
-  For example, use `3-0-stable` if you're using Spree `3-0-stable` or any `3.0.x` version.
-
 2. Install the gem using Bundler:
   ```ruby
   bundle install
   ```
-
-3. Copy & run migrations
-  ```ruby
-  bundle exec rake railties:install:migrations
-  bundle exec rake db:migrate
-  ```
-
-4. Restart your server
-
-  If your server was running, restart it so that it can find the assets properly.
-
 ### Using the slider
 
 Spree 3 uses the bootstrap framework and a default slider template is available for bootstrap 3
@@ -44,7 +21,7 @@ Spree 3 uses the bootstrap framework and a default slider template is available 
 Example usage:
 
 ```erb
-  <%= render partial: 'spree/shared/slider', locals: { slider: Spree::Slide.published, cid: 'home', interval: false } %>
+  <%= render partial: 'spree/shared/slider', locals: { slider: Spree::Slide.published, cid: 'home' } %>
 ```
 
 If you desire to have a customized carousel template you can specify your own like so:

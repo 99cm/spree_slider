@@ -1,19 +1,20 @@
 es:
-  next: "Siguiente"
-  previous: "Anterior"
-  name: "Nombre"
-  body: "Cuerpo"
-  link_url: "URL de enlace"
-  image: "Imagen"
-  image_file_name: "Nombre de la imagen"
-  published: "Publicado"
-  position: "Posición"
-  y: "Sí"
-  n: "No"
-
   activerecord:
     models:
       spree/slide: "Diapositiva"
+
+  spree:
+    next: "Siguiente"
+    previous: "Anterior"
+    name: "Nombre"
+    body: "Cuerpo"
+    link_url: "URL de enlace"
+    image: "Imagen"
+    image_file_name: "Nombre de la imagen"
+    published: "Publicado"
+    position: "Posición"
+    y: "Sí"
+    n: "No"
 
   spree_slider:
     config_name: "Diapositivas Spree"

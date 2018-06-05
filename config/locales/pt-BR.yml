@@ -1,20 +1,21 @@
 pt-BR:
-  next: "Próximo"
-  previous: "Anterior"
-  name: "Nome"
-  body: "Corpo"
-  link_url: "URL"
-  image: "Imagem"
-  preview: "Visualizar"
-  image_file_name: "Nome da Imagem"
-  published: "Publicado"
-  position: "Posição"
-  y: "Sim"
-  n: "Não"
-
   activerecord:
     models:
       spree/slide: "Slide"
+
+  spree:
+    next: "Próximo"
+    previous: "Anterior"
+    name: "Nome"
+    body: "Corpo"
+    link_url: "URL"
+    image: "Imagem"
+    preview: "Visualizar"
+    image_file_name: "Nome da Imagem"
+    published: "Publicado"
+    position: "Posição"
+    y: "Sim"
+    n: "Não"
 
   spree_slider:
     config_name: "Spree Slider"

@@ -1,19 +1,20 @@
 nl:
-  next: "Volgende"
-  previous: "Vorige"
-  name: "Naam"
-  body: "Lichaam"
-  link_url: "Link URL"
-  image: "Beeld"
-  image_file_name: "Bestandsnaam"
-  published: "Gepubliceerd"
-  position: "Positie"
-  y: "Ja"
-  n: "Geen"
-
   activerecord:
     models:
       spree/slide: "Slide"
+
+  spree:
+    next: "Volgende"
+    previous: "Vorige"
+    name: "Naam"
+    body: "Lichaam"
+    link_url: "Link URL"
+    image: "Beeld"
+    image_file_name: "Bestandsnaam"
+    published: "Gepubliceerd"
+    position: "Positie"
+    y: "Ja"
+    n: "Geen"
 
   spree_slider:
     config_name: "Spree Slider"

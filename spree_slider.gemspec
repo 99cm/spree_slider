@@ -1,7 +1,4 @@
 # encoding: UTF-8
-
-require 'spree_slider/version'
-
 Gem::Specification.new do |s|
   s.name        = 'spree_slider'
   s.version     = '3.6.0'
@@ -10,6 +7,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/99cm/spree_slider'
   s.summary     = 'Spree Slider extension'
   s.description = 'Adds a slider to the homepage'
+  s.required_ruby_version = '>= 2.3.0'
 
   s.files         = `git ls-files`.split("\n")
   s.require_path = 'lib'

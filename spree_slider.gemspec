@@ -4,7 +4,7 @@ require 'spree_slider/version'
 
 Gem::Specification.new do |s|
   s.name        = 'spree_slider'
-  s.version     = SpreeSlider::VERSION
+  s.version     = '3.6.0'
   s.authors     = ['Giuseppe Privitera', 'Leo Wang']
   s.email       = 'cgcmall.cn@gmail.com'
   s.homepage    = 'https://github.com/99cm/spree_slider'
